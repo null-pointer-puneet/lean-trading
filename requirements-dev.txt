@@ -1,0 +1,5 @@
+lean
+pandas==2.2.3
+pyperclip~=1.8.2
+yfinance~=0.2.52
+setuptools<81

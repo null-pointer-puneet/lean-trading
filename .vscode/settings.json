@@ -1,0 +1,18 @@
+{
+  "python.analysis.extraPaths": [
+    "./lean_stubs",
+    "./strategies"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.autoImportCompletions": true,
+  "files.exclude": {
+    "data/": true,
+    "results/": true,
+    ".lean/": true,
+    "**/__pycache__": true
+  },
+  "files.associations": {
+    "*.pyi": "python"
+  }
+}

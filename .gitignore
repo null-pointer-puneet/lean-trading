@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# LEAN
+data/*
+!data/.gitkeep
+!data/readme.md
+!data/tickers.default.txt
+*backtests/
+results/
+strategies/*/config.json
+.lean/
+lean.json
+
+# Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.DS_Store
+
+# OS
+Thumbs.db
